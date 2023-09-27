@@ -1,0 +1,76 @@
+site_name: Astraeus-I
+repo_url: https://github.com/Astraeus-I
+repo_name: Astraeus-I
+
+theme:
+  name: material
+  font:
+    text: Montserrat
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - navigation.tabs
+    - content.tabs.link
+    - toc.integrate
+    - navigation.tracking
+    - navigation.footer
+    - content.code.annotation
+    - content.code.copy
+    - search.suggest
+    - navigation.top
+    # - navigation.expand
+  highlightjs: true
+  hljs_style:
+    - monokai
+  language: en
+  palette:
+    - scheme: preference
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: indigo
+      accent: deep purple
+    - scheme: slate 
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode    
+      primary: indigo
+      accent: deep purple
+
+extra:
+  version:
+    provider: mike
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+    - '🏡 Home': 'index.md'
+    - '🚀 Getting Started': 'getting_started/getting_started.md'
+    - '📖 User Guide': 'user_guide/user_guide.md'
+    - '⚙️ Hardware': 'board_info/board_info.md'
+    - '📰 About': 'about/about.md'
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/Astraeus-I
+    - icon: fontawesome/brands/discord
+      link: https://twitter.com/TheJamesWillett
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/Astraeus-I"  target="_blank" rel="noopener">Astraeus-I</a>
