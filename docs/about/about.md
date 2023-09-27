@@ -1,4 +1,4 @@
-# 📰 About The Project
+# 📊 About The Project
 Astraeus-I originated as a senior project at San Jose State University, collaboratively developed over two semesters by a dedicated team of three students. This initiative was divided into two pivotal phases, with the initial semester focusing primarily on crafting the hardware, followed by a subsequent semester dedicated to the software development aspect.
 
 During the course of its inception, our team had the opportunity to work closely with libhal, a collaborative effort that significantly contributed to the success and refinement of the project. This partnership was instrumental in navigating through the complexities and challenges that emerged during the development process, providing valuable insights and support that shaped Astraeus-I into its current form.
@@ -31,6 +31,18 @@ Engaging with libhal during the development process enriched our project with a 
     <p>Michell was instrumental in [specific area], dedicating [his/her] efforts to perfecting [particular aspect of the project].</p>
 </div>
 
+## Advisors
+### Kaikai Liu
+<div style="display: flex; align-items: center;">
+    <img src="../../assets/logo.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
+    <p>As an advisor, Kaikai offered valuable insights and feedback that helped us navigate through the complexities of the project.</p>
+</div>
+
+### Khalil Estell
+<div style="display: flex; align-items: center;">
+    <img src="../../assets/logo.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
+    <p>As a co-advisor, Khalil provided invaluable guidance and support throughout the development process, ensuring the successful completion of the project.</p>
+</div>
 
 ## Acknowledgements
 We extend our gratitude to San Jose State University and libhal for their unwavering support and resources that were invaluable to the successful completion of Astraeus-I. Special thanks also go to our mentors, advisors, and everyone who contributed their time and expertise to bring this project to fruition. We would firstly like to thank our co-advisor **Khalil Estell** for the tremendous amount of support and guidance he provided throughout the project. We would also like to thank our advisor **Kaikai Liu** for his valuable insights and feedback that helped us navigate through the complexities of the project.

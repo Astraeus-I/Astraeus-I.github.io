@@ -4,10 +4,10 @@ repo_name: Astraeus-I
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/small.ico
   font:
     text: Montserrat
-  logo: assets/logo.png
-  favicon: assets/favicon.ico
   features:
     - navigation.tabs
     - content.tabs.link
@@ -37,10 +37,6 @@ theme:
       primary: indigo
       accent: deep purple
 
-extra:
-  version:
-    provider: mike
-
 extra_css:
   - stylesheets/extra.css
 
@@ -48,15 +44,15 @@ nav:
     - '🏡 Home': 'index.md'
     - '🚀 Getting Started': 'getting_started/getting_started.md'
     - '📖 User Guide': 'user_guide/user_guide.md'
-    - '⚙️ Hardware': 'board_info/board_info.md'
-    - '📰 About': 'about/about.md'
+    - '📚 API': 'api/api.md'
+    - '📊 About': 'about/about.md'
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/Astraeus-I
     - icon: fontawesome/brands/discord
-      link: https://twitter.com/TheJamesWillett
+      link: https://discord.gg/7H8FzkXEgZ
 
 markdown_extensions:
   - pymdownx.highlight:
