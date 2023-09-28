@@ -14,7 +14,8 @@ The boards software comprises of device drivers for each of the onboard devices,
 To wire the board to other devices, you can use the pinout diagram or the pin labels on the Astraeus-I board to find the pins you need to connect to. Then you will need to use the pinout diagram for the device you are connecting to and connect the pins to the corresponding pins on the device.
 
 ### 📌 Pinout Diagram
-🚧 Under construction 🚧
+
+<img src="../../assets/Astraeus_Pinout.svg" style="height: 1200px;">
 
 ## 📈 Telemetry Recorder
 🚧 Under construction 🚧
@@ -26,5 +27,5 @@ The telemetry recorder is a tool used to record data from the onboard devices an
 
 The board application package is used to run a custom application on the board. The application can be used to control the onboard devices and perform custom actions which you can use to build your own application.
 
-
- - <a href="https://discord.gg/HXetQHqDHr" target="_blank">Libhal Discord</a> Server
+!!! question
+    Have a question? Ask it on our [Discord](https://discord.gg/7H8FzkXEgZ) server!
