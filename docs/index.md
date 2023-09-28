@@ -16,17 +16,16 @@ Astraeus-I embodies a unique design philosophy centered on the following pillars
 4. **User-Friendly:** With an intuitive interface and straightforward integration process, Astraeus-I is accessible and easy to use, even for individuals who are not tech-savvy.
 
 ## The Basics
-Delve into the core of Astraeus-I, a symphony of interfaces harmoniously interacting with hardware devices and peripherals. The ingenious use of runtime polymorphism facilitates a seamless decoupling of application logic from driver implementation specifics. This refined approach guarantees that applications smoothly run on any platform equipped with the necessary components, making Astraeus-I a paragon of versatility and compatibility.
+Astraeus-I seamlessly integrates interfaces with hardware devices and peripherals through effective use of runtime polymorphism. This technique allows for clear separation between application logic and driver implementation, ensuring smooth operation on platforms with the necessary components, emphasizing its versatility and compatibility.
 
 ## Support
 For support, please enter our dedicated server and visit our issues page for assistance and prompt resolution to your concerns.
 
-- [Discord Server](https://discord.gg/7H8FzkXEgZ)
+ - <a href="https://discord.gg/7H8FzkXEgZ" target="_blank">Asreaus Discord</a> Server
+ - <a href="https://discord.gg/HXetQHqDHr" target="_blank">Libhal Discord</a> Server
 
 ## Special Thanks
 A huge thank you to the following individuals for their mentorship and support throughout the development process:
 
 - **Khalil Estell**
 - **Kaikai Liu**
-
-

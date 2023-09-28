@@ -15,35 +15,35 @@ Engaging with libhal during the development process enriched our project with a 
 ## Team Members
 ### Adrien Carrou
 <div style="display: flex; align-items: center;">
-    <img src="../../assets/logo.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
-    <p>Specialized in [specific area], Adrien brought [his/her] extensive knowledge and skills to [particular aspect of the project].</p>
+    <img src="../../assets/adrien.jpg" style="width: 100px; height: 100px; border-radius: 20%; margin-right: 20px;">
+    <p>Specialized in firmware and electrical, Adrien brought his extensive knowledge and skills to writing platform and device drivers as well as helping design the pcb.</p>
 </div>
 
 ### Michael Xiao
 <div style="display: flex; align-items: center;">
-    <img src="../../assets/logo.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
-    <p>With a focus on [specific area], Michael contributed significantly to [particular aspect of the project], ensuring its [particular feature or quality].</p>
+    <img src="../../assets/michael.png" style="width: 80px; height: 100px; border-radius: 20%; margin-right: 20px;">
+    <p>Specialized pcb design, Michael contributed significantly to the pcb design, ensuring its ease of use and reliability.</p>
 </div>
 
 ### Michell Sayer
 <div style="display: flex; align-items: center;">
-    <img src="../../assets/logo.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
-    <p>Michell was instrumental in [specific area], dedicating [his/her] efforts to perfecting [particular aspect of the project].</p>
+    <img src="../../assets/mitchell.jpeg" style="width: 100px; height: 100px; border-radius: 20%; margin-right: 20px;">
+    <p>Specialized in firmware development, Michell was instrumental in writing device and platform drivers, dedicating his efforts to perfecting the software components of the project.</p>
 </div>
 
 ## Advisors
-### Kaikai Liu
-<div style="display: flex; align-items: center;">
-    <img src="../../assets/logo.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
-    <p>As an advisor, Kaikai offered valuable insights and feedback that helped us navigate through the complexities of the project.</p>
-</div>
 
 ### Khalil Estell
 <div style="display: flex; align-items: center;">
-    <img src="../../assets/logo.png" style="width: 100px; height: 100px; border-radius: 50%; margin-right: 20px;">
-    <p>As a co-advisor, Khalil provided invaluable guidance and support throughout the development process, ensuring the successful completion of the project.</p>
+    <img src="../../assets/khalil.jpeg" style="width: 100px; height: 100px; border-radius: 20%; margin-right: 20px;">
+    <p>As a co-advisor, Khalil provided invaluable guidance and support throughout the software and hardware development process, ensuring the successful completion of the project.</p>
+</div>
+
+### Kaikai Liu
+<div style="display: flex; align-items: center;">
+    <img src="../../assets/kaikai.jpg" style="width: 90px; height: 100px; border-radius: 20%; margin-right: 20px;">
+    <p>As an advisor, Kaikai offered valuable insights and feedback that helped us navigate through the complexities of the project.</p>
 </div>
 
 ## Acknowledgements
 We extend our gratitude to San Jose State University and libhal for their unwavering support and resources that were invaluable to the successful completion of Astraeus-I. Special thanks also go to our mentors, advisors, and everyone who contributed their time and expertise to bring this project to fruition. We would firstly like to thank our co-advisor **Khalil Estell** for the tremendous amount of support and guidance he provided throughout the project. We would also like to thank our advisor **Kaikai Liu** for his valuable insights and feedback that helped us navigate through the complexities of the project.
-

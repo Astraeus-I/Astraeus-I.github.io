@@ -11,7 +11,15 @@ Read the <a href="https://libhal.github.io/2.2/getting_started/" target="_blank"
 ## 🧱 Creating Your Own Project
 🚧 Under construction 🚧
 
-To create your own project, go <a href="https://github.com/libhal/libhal-starter" target="_blank">here</a> and click on the green "Use this template" button.
-Then click on "create new repository" and put it on your own account.
+Start by cloning `libhal-starter`:
 
-From here you will have to clone the project onto your system and you will be able to start working on your own project.
+```bash
+git clone https://github.com/libhal/libhal-starter.git
+```
+
+Take a look at the `README.md` of
+[libhal/libhal-starter](https://github.com/libhal/libhal-starter) to get
+details about how to modify the starter project and make it work for your needs.
+
+!!! note
+    You can learn more about libhal by reading the <a href="https://libhal.github.io/2.2/user_guide/fundamentals/" target="_blank">User Guide</a> and <a href="https://libhal.github.io/2.2/api/namespaces/" target="_blank">API Reference</a>

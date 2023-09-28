@@ -25,3 +25,6 @@ The telemetry recorder is a tool used to record data from the onboard devices an
 🚧 Under construction 🚧
 
 The board application package is used to run a custom application on the board. The application can be used to control the onboard devices and perform custom actions which you can use to build your own application.
+
+
+ - <a href="https://discord.gg/HXetQHqDHr" target="_blank">Libhal Discord</a> Server
