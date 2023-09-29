@@ -40,12 +40,16 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+extra_javascript:
+  - 'stylesheets/extra.js'
+
 nav:
     - '🏡 Home': 'index.md'
     - '🚀 Getting Started': 'getting_started/getting_started.md'
     - '📖 User Guide': 'user_guide/user_guide.md'
     - '📚 API': 'api/api.md'
     - '📊 About': 'about/about.md'
+    - '📋 Order Form': 'order_form/order_form.md'
 
 extra:
   social:

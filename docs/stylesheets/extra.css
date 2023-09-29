@@ -44,3 +44,7 @@ a:visited code {
 .md-tabs {
     background: linear-gradient(to right,  #483D8B, #149fac); /* LightBlue to DarkSlateBlue */
 }
+
+.right-align {
+    margin-left: 500px !important;
+}
