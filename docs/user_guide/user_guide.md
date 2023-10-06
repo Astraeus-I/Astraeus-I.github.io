@@ -32,13 +32,21 @@ To wire the board to other devices, you can use the pinout diagram or the pin la
 
 The board’s software includes device drivers for onboard devices, a telemetry recorder, and a board application package. Device drivers facilitate interaction with the onboard devices and are utilized by both the telemetry recorder and the board application package. The telemetry recorder, a pivotal tool within the suite, captures data from the devices, offering options to either save this data to an SD card or transmit it through a radio module if one is present on the board. Concurrently, the board application package empowers users to run custom applications on the board. These applications can manipulate the onboard devices and execute custom actions, providing a versatile foundation for developing your own applications.
 
+### 🧩 Board Application Package
+🚧 Under construction 🚧
+
+The board application package is used to run a custom application on the board. The application can be used to control the onboard devices and perform custom actions which you can use to build your own application.
+
+## 🔧 Tools
+
+Astraeus-I offers a suite of advanced and user-friendly tools designed to cater to both professionals and hobbyists. The tools aim to bridge the gap between raw data and insightful interpretation, ensuring a comprehensive understanding of the board's operations.
+
 ### 📈 Telemetry Recorder
 
 The Telemetry Recorder is a vital tool for capturing data from devices on the Astraeus-I board. It allows users to either save data directly to an SD card or transmit it through a radio module, provided the board is equipped with one. This dual functionality enables both immediate data transmission for real-time monitoring and secure data storage for later analysis.
 
 To understand the Telemetry Recorder’s features and operation better, visit the project’s <a href="https://github.com/Astraeus-I/telemetry-recorder" target="_blank">GitHub page</a>. Here, you’ll find detailed documentation and resources to guide you through installation and usage. The repository also serves as a platform for collaboration, issue reporting, and community engagement to improve and develop the tool further. Whether you're a researcher, technician, or hobbyist, the Telemetry Recorder is a valuable asset for efficient data recording and transmission with the Astraeus-I board.
 
-### 🧩 Board Application Package
-🚧 Under construction 🚧
+### 📋 Web Serial
 
-The board application package is used to run a custom application on the board. The application can be used to control the onboard devices and perform custom actions which you can use to build your own application.
+Experience seamless board testing with libhals intuitive <a href="https://libhal.github.io/web-serial/" target="_blank">Web Serial Interface</a>. Simply connect the development board to your laptop or PC via a USB and watch real-time data transmissions unfold on your screen. This feature not only provides immediate insights into the board's performance and metrics but also ensures that any necessary calibrations or diagnostics can be performed effortlessly. Perfect for both developers and enthusiasts, our web-based serial connection offers a user-friendly gateway to understanding and harnessing the power of the avionics board.
