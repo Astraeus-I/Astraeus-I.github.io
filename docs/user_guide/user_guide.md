@@ -30,9 +30,23 @@ To wire the board to other devices, you can use the pinout diagram or the pin la
 
 ## 💻 Software Details
 
-The board’s software includes device drivers for onboard devices, a telemetry recorder, and a board application package. Device drivers facilitate interaction with the onboard devices and are utilized by both the telemetry recorder and the board application package. The telemetry recorder, a pivotal tool within the suite, captures data from the devices, offering options to either save this data to an SD card or transmit it through a radio module if one is present on the board. Concurrently, the board application package empowers users to run custom applications on the board. These applications can manipulate the onboard devices and execute custom actions, providing a versatile foundation for developing your own applications.
+The board’s software includes device drivers for onboard devices, board application tools. Device drivers facilitate interaction with the onboard devices and are utilized by the board application tools. The telemetry recorder, a pivotal tool within the suite, captures data from the devices, offering options to either save this data to an SD card or transmit it through a radio module if one is present on the board. Concurrently, the board application tools empowers users to run custom applications on the board. These applications can manipulate the onboard devices and execute custom actions, providing a versatile foundation for developing your own applications.
 
-### 🧩 Board Application Tools
+Here is a diagram of the software architecture of the board:
+``` mermaid
+flowchart TD
+
+    Astraeus-I --> Microcontroller --> libhal
+    libhal-->libhal-icm --> telemetry-recorder
+    libhal-->libhal-mpl --> telemetry-recorder
+    libhal-->libhal-neo --> telemetry-recorder
+    libhal-->libhal-microsd --> telemetry-recorder
+    telemetry-recorder --> Your-Project
+```
+To get a better understanding of the libhal software organization visit the <a href="https://libhal.github.io/2.2/contributor_guide/organization/#target-libraries" target="_blank">libhal organization</a>.
+
+
+## 🧩 Board Application Tools
 🚧 Under construction 🚧
 
 The board application package is used to run a custom application on the board. The application can be used to control the onboard devices and perform custom actions which you can use to build your own application.
@@ -51,6 +65,20 @@ Astraeus-I boasts a fully modular design, offering unparalleled flexibility to i
 🚧 Under construction 🚧
 
 The Astraeus-I board is equipped with two Qwiic connectors, designed to facilitate effortless integration of additional device modules. This feature not only allows for straightforward singular module attachments but also supports daisy chaining, letting users link multiple modules in sequence. This capability ensures scalable expansions, enabling users to customize and augment the board's functionalities as per their requirements. Whether you're aiming for simple additions or building a more intricate system requring additional sensors, the Qwiic connectors on the Astraeus-I board make the process seamless and user-friendly.
+
+## 🔨 Adding Tools
+
+If you'd like to add a device or tool to your project you can do so by adding it to the conanfile.py file. You can find the conanfile.py file in the root directory of your project. The conanfile.py file is used to specify the dependencies of your project. To add a device or tool to your project you will need to add it to the `requirements` list in the conanfile.py file. For example, if you want to add the telemetry recorder tool to your project you would add it to the `requirements` list like this:
+
+```python
+def requirements(self):
+    if str(self.options.platform).startswith("lpc40"):
+        self.requires("libhal-lpc40/[^2.1.1]")
+    self.requires("telemetry-recorder/0.0.1")
+    self.requires("libhal-util/[^3.0.0]")
+```
+!!! note 
+    Check out the <a href="https://github.com/Astraeus-I/telemetry-recorder" target="_blank">telemetry recorder</a> tool if you want to record data from the Astraeus-I board.
 
 ## 🔧 Additional Tools
 
