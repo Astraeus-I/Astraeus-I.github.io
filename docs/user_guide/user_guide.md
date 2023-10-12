@@ -35,14 +35,22 @@ The board’s software includes device drivers for onboard devices, board applic
 Here is a diagram of the software architecture of the board:
 ``` mermaid
 flowchart TD
-
-    Astraeus-I --> Microcontroller --> libhal
+    subgraph Hardware
+        Astraeus-I --> Microcontroller
+    end
+    
+    subgraph Software
     libhal-->libhal-icm --> telemetry-recorder
     libhal-->libhal-mpl --> telemetry-recorder
     libhal-->libhal-neo --> telemetry-recorder
     libhal-->libhal-microsd --> telemetry-recorder
     telemetry-recorder --> Your-Project
+    end
+
+    Hardware --> Software
 ```
+
+
 To get a better understanding of the libhal software organization visit the <a href="https://libhal.github.io/2.2/contributor_guide/organization/#target-libraries" target="_blank">libhal organization</a>.
 
 
