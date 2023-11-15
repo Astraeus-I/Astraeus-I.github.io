@@ -1,4 +1,4 @@
-# 📊 About The Project
+# 🌐 About The Project
 Astraeus-I originated as a senior project at San Jose State University, collaboratively developed over two semesters by a dedicated team of three students. This initiative was divided into two pivotal phases, with the initial semester focusing primarily on crafting the hardware, followed by a subsequent semester dedicated to the software development aspect.
 
 During the course of its inception, our team had the opportunity to work closely with libhal, a collaborative effort that significantly contributed to the success and refinement of the project. This partnership was instrumental in navigating through the complexities and challenges that emerged during the development process, providing valuable insights and support that shaped Astraeus-I into its current form.

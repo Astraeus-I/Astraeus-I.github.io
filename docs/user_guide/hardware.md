@@ -17,3 +17,6 @@ To connect the Astraeus-I board with other devices, start by referencing the pin
 - **Power**
     - Supply voltage:  5V
     - Operating current: 200mA
+
+!!! note
+    For detailed information on the Astraeus board's schematic and board layout, refer to the <a href="https://github.com/Astraeus-I/Astraeus-I-Board" target="_blank">Astraeus-I Board repository</a>

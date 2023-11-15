@@ -22,3 +22,4 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material mkdocs-literate-nav
       - run: mkdocs gh-deploy --force
+      - run: npm install --save three

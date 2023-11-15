@@ -48,3 +48,33 @@ a:visited code {
 .right-align {
     margin-left: 300px !important;
 }
+
+.underline-button {
+    text-decoration: underline; /* Underline text */
+}
+
+<head>
+    <!-- Your existing head content -->
+
+    <style>
+        button {
+            background-color: #f2f2f2; /* Light grey background */
+            border: 1px solid #dcdcdc; /* Grey border */
+            padding: 10px 20px; /* Some padding */
+            cursor: pointer; /* Change mouse cursor on hover */
+            border-radius: 5px; /* Rounded corners */
+            margin: 5px; /* Some margin */
+            transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
+            text-decoration: underline; /* Underline text */
+        }
+
+        button:hover {
+            background-color: #4c0cac; /* Slightly darker grey on hover */
+            border-color: #c1c1c1; /* Darker border on hover */
+        }
+
+        button:active {
+            background-color: #d1d1d1; /* Even darker grey on active/click */
+        }
+    </style>
+</head>
