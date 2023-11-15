@@ -18,26 +18,35 @@ We have used <a href="https://easyeda.com/" target="_blank">EasyEDA</a>, a free 
 
 The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. Theses enclosures are crafted to safeguard the board against external harm while maintaining stability and security. It is thoughtfully engineered to allow straightforward access to the board's ports and connectors, enabling hassle-free connections and disconnections of devices. There are two versions of the case: one suited for internal, non-aerodynamic applications, and another optimized for aerodynamic uses. These cases are intended to be fabricated using PLA filament in a 3D printing process.
 
-#### Astraeus Ground Casing Top
+### 🏰 Mechanical Cases
+
+#### Astraeus Aero Case
 <button id="toggle-model-top" class="underline-button">Toggle 3D Model</button>
 <div id="astra_ground_top" style="width: 600px; height: 400px; display: none;"></div>
 
-#### Astraeus Ground Casing Bottom
+#### Astraeus Aero Case Lid
 <button id="toggle-model-bottom" class="underline-button">Toggle 3D Model</button>
 <div id="astra_ground_bottom" style="width: 600px; height: 400px; display: none;"></div>
 
+<!-- Include Three.js and other necessary scripts -->
 <script src="https://cdn.jsdelivr.net/npm/three@0.140.0/build/three.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.140.0/examples/js/loaders/STLLoader.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.140.0/examples/js/controls/OrbitControls.js"></script>
 
 
+
 <script>
     let viewers = [];
 
-    function setupSTLViewer(containerId, stlFilePath) {
+    function getAssetPath(fileName) {
+        const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        return isLocal ? `../../assets/${fileName}` : `./assets/${fileName}`;
+    }
+
+    function setupSTLViewer(containerId, stlFileName) {
         let camera, scene, renderer, controls;
         const container = document.getElementById(containerId);
-        
+
         initSTLViewer();
         window.addEventListener('resize', () => onWindowResize(containerId), false);
 
@@ -57,7 +66,7 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
             controls.maxDistance = 50;
 
             const loader = new THREE.STLLoader();
-            loader.load(stlFilePath, function (geometry) {
+            loader.load(getAssetPath(stlFileName), function (geometry) {
                 const material = new THREE.MeshPhongMaterial({ color: 0x555555, specular: 0x111111, shininess: 200 });
                 const mesh = new THREE.Mesh(geometry, material);
 
@@ -117,6 +126,7 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
         }
     }
 
-    setupSTLViewer('astra_ground_top', '../../assets/AstraeusGroundCasingTop.stl');
-    setupSTLViewer('astra_ground_bottom', '../../assets/AstraeusGroundCasingBottom.stl');
+    // Initialize viewers for each STL file
+    setupSTLViewer('astra_ground_top', 'AstraeusGroundCasingTop.stl');
+    setupSTLViewer('astra_ground_bottom', 'AstraeusGroundCasingBottom.stl');
 </script>
