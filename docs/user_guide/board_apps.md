@@ -1,7 +1,7 @@
 # 🧩 Board Application Tools
-🚧 Under construction 🚧
+The board application tools for the Astraeus-I board comprise a suite of software resources that empower users to develop and run their own custom applications. These tools provide the means to effectively control and manipulate the board's onboard devices, enabling a wide range of customized actions. Central to this toolkit is the libhal library, which forms the foundation by offering a comprehensive set of device drivers specifically for these onboard components.
 
-The board application package is used to run a custom application on the board. The application can be used to control the onboard devices and perform custom actions which you can use to build your own application.
+Designed with modularity in mind, these tools offer the flexibility to seamlessly integrate user-created applications onto the board. This design approach not only enhances usability but also encourages innovation and personalization. Additionally, the board application tools are crafted for portability, ensuring compatibility across various operating systems such as Linux, Windows, and macOS. This cross-platform functionality ensures that users have the freedom and convenience to develop and deploy their applications in diverse computing environments.
 
 ### 📡 Telemetry Recorder
 

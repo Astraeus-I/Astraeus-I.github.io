@@ -1,6 +1,6 @@
 # 🔩 Hardware Details
 
-To wire the board to other devices, you can use the pinout diagram or the pin labels on the Astraeus-I board to find the pins you need to connect to. Then you will need to use the pinout diagram for the device you are connecting to and connect the pins to the corresponding pins on the device.
+To connect the Astraeus-I board with other devices, start by referencing the pinout diagram or the clearly labeled pins on the board itself. This will guide you in identifying the exact pins required for your connection. Once you have this information, match these pins with the corresponding ones on the device you're connecting to, using its pinout diagram as a reference. The Astraeus-I board is equipped with a variety of features including a 9 DOF IMU (ICM-20948), a Barometer (MPL3115A2), GPS (Neo-m9n), an SD Card slot, and it even supports the installation of an xbee radio module. Another key feature of this board is its micromod connector, which allows for easy swapping of the microcontroller, adding a layer of versatility to your projects.
 
 ### 📌 Pinout Diagram
 
@@ -13,7 +13,7 @@ To wire the board to other devices, you can use the pinout diagram or the pin la
     - Horizontal Mounting Hole Distance: 46.1 mm
     - Vertical Mounting Hole Distance: 78.87 mm
 - **Weight**
-    - 29 grams
+    - 22 grams (without header pins)
 - **Power**
     - Supply voltage:  5V
     - Operating current: 200mA

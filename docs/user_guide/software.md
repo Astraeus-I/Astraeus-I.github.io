@@ -16,6 +16,7 @@ flowchart TD
     libhal-->libhal-mpl --> telemetry-recorder
     libhal-->libhal-neo --> telemetry-recorder
     libhal-->libhal-microsd --> telemetry-recorder
+    libhal-->libhal-xbee --> telemetry-recorder
     telemetry-recorder --> Your-Project
     end
 
