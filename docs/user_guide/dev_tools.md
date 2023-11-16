@@ -40,7 +40,7 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
 
     function getAssetPath(fileName) {
         const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-        return isLocal ? `../../assets/${fileName}` : `/docs/assets/${fileName}`;
+        return isLocal ? '../../assets/${fileName}' : 'https://raw.githubusercontent.com/Astraeus-I/Astraeus-I.github.io/main/docs/assets/${fileName}';
     }
 
     function setupSTLViewer(containerId, stlFileName) {
