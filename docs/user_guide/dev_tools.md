@@ -16,10 +16,12 @@ We have used <a href="https://easyeda.com/" target="_blank">EasyEDA</a>, a free 
 
 ### 🏰 Mechanical Cases
 
-The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. Theses enclosures are crafted to safeguard the board against external harm while maintaining stability and security. It is thoughtfully engineered to allow straightforward access to the board's ports and connectors, enabling hassle-free connections and disconnections of devices. There are two versions of the case: one suited for internal, non-aerodynamic applications, and another optimized for aerodynamic uses. These cases are intended to be fabricated using PLA filament in a 3D printing process.
+The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. Theses enclosures are crafted to safeguard the board against external harm while maintaining stability and security. It is thoughtfully engineered to allow straightforward access to the board's ports and connectors, enabling hassle-free connections and disconnections of devices. There are two versions of the case: one suited for internal, non-aerodynamic applications, and another optimized for aerodynamic uses.
 
 
-#### Astraeus Aero Case - <a href="../../downloads/AstraeusAeroCase.zip" download>Download ZIP</a>
+#### Astraeus Ground Case - <a href="../../downloads/AstraeusAeroCase.zip" download>Download ZIP</a>
+This cases are intended to be fabricated using any filament for an FDM printer in a 3D printing process.
+
 <img src="../../assets/AstraeusCase2D.png" alt="2D Design of the Astraeus Aero Case" width=700>
 
 <button id="toggle-model-top" class="underline-button">View 3D Top Design</button>
