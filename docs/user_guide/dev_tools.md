@@ -18,15 +18,14 @@ We have used <a href="https://easyeda.com/" target="_blank">EasyEDA</a>, a free 
 
 The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. Theses enclosures are crafted to safeguard the board against external harm while maintaining stability and security. It is thoughtfully engineered to allow straightforward access to the board's ports and connectors, enabling hassle-free connections and disconnections of devices. There are two versions of the case: one suited for internal, non-aerodynamic applications, and another optimized for aerodynamic uses. These cases are intended to be fabricated using PLA filament in a 3D printing process.
 
-### 🏰 Mechanical Cases
 
 #### Astraeus Aero Case - <a href="../../downloads/AstraeusAeroCase.zip" download>Download ZIP</a>
 <img src="../../assets/AstraeusCase2D.png" alt="2D Design of the Astraeus Aero Case" width=700>
 
-<button id="toggle-model-top" class="underline-button">View Top Design</button>
+<button id="toggle-model-top" class="underline-button">View 3D Top Design</button>
 <div id="astra_ground_top" style="width: 600px; height: 400px; display: none;"></div>
 
-<button id="toggle-model-bottom" class="underline-button">View Bottom Design</button>
+<button id="toggle-model-bottom" class="underline-button">View 3D Bottom Design</button>
 <div id="astra_ground_bottom" style="width: 600px; height: 400px; display: none;"></div>
 
 <!-- Include Three.js and other necessary scripts -->
@@ -45,7 +44,8 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
     }
 
     function setupSTLViewer(containerId, stlFileName) {
-        let camera, scene, renderer, controls;
+        let camera, scene, renderer, controls, mesh;
+        let isUserInteracting = false, idleTime = 0, autoRotateSpeed = 0.3;
         const container = document.getElementById(containerId);
 
         initSTLViewer();
@@ -53,10 +53,10 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
 
         function initSTLViewer() {
             scene = new THREE.Scene();
-            scene.background = new THREE.Color(0xFFFFFF);
+            scene.background = new THREE.Color(0xEEEEEE); // Changed background color
 
             camera = new THREE.PerspectiveCamera(75, container.offsetWidth / container.offsetHeight, 0.1, 1000);
-            camera.position.set(10, 10, 15);
+            camera.position.set(10, 10, 20);
 
             renderer = new THREE.WebGLRenderer({ antialias: true });
             renderer.setSize(container.offsetWidth, container.offsetHeight);
@@ -66,10 +66,14 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
             controls.minDistance = 5;
             controls.maxDistance = 50;
 
+            const gridHelper = new THREE.GridHelper(200, 50); // Added grid helper
+            scene.add(gridHelper);
+
             const loader = new THREE.STLLoader();
             loader.load(getAssetPath(stlFileName), function (geometry) {
-                const material = new THREE.MeshPhongMaterial({ color: 0x555555, specular: 0x111111, shininess: 200 });
-                const mesh = new THREE.Mesh(geometry, material);
+                const material = new THREE.MeshPhongMaterial({ color: 0x87CEEB, specular: 0x111111, shininess: 100 });
+                mesh = new THREE.Mesh(geometry, material);
+                geometry.translate(-50, 0, -50);
 
                 mesh.scale.set(0.1, 0.1, 0.1);
                 scene.add(mesh);
@@ -78,16 +82,30 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
                 controls.target.set(0, 0, 0);
 
                 animate();
+                controls.target.copy(mesh.position);
+
             });
 
             addLights();
         }
 
-        function animate() {
-            requestAnimationFrame(animate);
-            controls.update();
-            renderer.render(scene, camera);
+    function animate() {
+        requestAnimationFrame(animate);
+
+        if (!isUserInteracting) {
+            idleTime += 0.01;
+            if (idleTime > 5) { // 5 seconds of inactivity
+                // Auto-rotate camera around the object
+                const radius = 15; // Define the radius of the circular path
+                camera.position.x = mesh.position.x + Math.cos(idleTime * autoRotateSpeed) * radius;
+                camera.position.z = mesh.position.z + Math.sin(idleTime * autoRotateSpeed) * radius;
+                camera.lookAt(mesh.position); // Make sure the camera always looks at the mesh
+            }
         }
+
+        controls.update();
+        renderer.render(scene, camera);
+    }
 
         function addLights() {
             const ambientLight = new THREE.AmbientLight(0x404040);
@@ -98,6 +116,13 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
         }
 
         viewers.push({ container, camera, renderer, scene });
+
+        // Reset idle time on user interaction
+        container.addEventListener('mousemove', () => {
+            isUserInteracting = true;
+            idleTime = 0;
+        });
+        container.addEventListener('mouseleave', () => isUserInteracting = false);
     }
 
     function onWindowResize(containerId) {
@@ -130,5 +155,4 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
     // Initialize viewers for each STL file
     setupSTLViewer('astra_ground_top', 'AstraeusGroundCasingTop.STL');
     setupSTLViewer('astra_ground_bottom', 'AstraeusGroundCasingBottom.STL');
-
 </script>
