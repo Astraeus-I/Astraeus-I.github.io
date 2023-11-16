@@ -20,12 +20,13 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
 
 ### 🏰 Mechanical Cases
 
-#### Astraeus Aero Case
-<button id="toggle-model-top" class="underline-button">Toggle 3D Model</button>
+#### Astraeus Aero Case - <a href="../../downloads/AstraeusAeroCase.zip" download>Download ZIP</a>
+<img src="../../assets/AstraeusCase2D.png" alt="2D Design of the Astraeus Aero Case" width=700>
+
+<button id="toggle-model-top" class="underline-button">View Top Design</button>
 <div id="astra_ground_top" style="width: 600px; height: 400px; display: none;"></div>
 
-#### Astraeus Aero Case Lid
-<button id="toggle-model-bottom" class="underline-button">Toggle 3D Model</button>
+<button id="toggle-model-bottom" class="underline-button">View Bottom Design</button>
 <div id="astra_ground_bottom" style="width: 600px; height: 400px; display: none;"></div>
 
 <!-- Include Three.js and other necessary scripts -->
@@ -40,7 +41,7 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
 
     function getAssetPath(fileName) {
         const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-        return isLocal ? '../../assets/${fileName}' : 'https://raw.githubusercontent.com/Astraeus-I/Astraeus-I.github.io/main/docs/assets/${fileName}';
+        return isLocal ? `../../assets/${fileName}` : `https://raw.githubusercontent.com/Astraeus-I/Astraeus-I.github.io/main/docs/assets/${fileName}`;
     }
 
     function setupSTLViewer(containerId, stlFileName) {
