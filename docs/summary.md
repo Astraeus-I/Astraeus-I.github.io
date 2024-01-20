@@ -12,4 +12,4 @@
   - [🟢 Library Status 🔴](project_information/status.md)
 - [🌐 About](about/about.md)
 - [💡 Projects](projects/projects.md)
-- [📋 Order Form](order_form/order_form.md)
+- [📋 Purchase](purchase/purchase.md)
