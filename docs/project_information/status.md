@@ -1,3 +1,41 @@
+
+<table>
+  <tr>
+    <th>
+      <p>Repo</p>
+    </th>
+    <th>
+      <p>CI State</p>
+    </th>
+    <th>
+      <p>Coverage</p>
+    </th>
+    <th>
+      <p>Latest Version</p>
+    </th>
+  </tr>
+
+
+Astraeus Packages
+  <tr>
+    <td>
+      <a href="https://github.com/Astraeus-I/telemetry-recorder">Astraeus-I/telemetry-recorder</a>
+    </td>
+    <td>
+      <a href="https://github.com/Astraeus-I/telemetry-recorder/actions/workflows/ci.yml"><img src="https://github.com/Astraeus-I/telemetry-recorderactions/workflows/ci.yml/badge.svg" /></a>
+    </td>
+    <td>
+      <img src="https://astraeus-i.github.io/telemetry-recorder/coverage/coverage.svg">
+    </td>
+    <td>
+      <a href="https://github.com/Astraeus-I/telemetry-recorder/blob/main/conanfile.py"><img src="https://github.com/Astraeus-I/telemetry-recorder/latest_version.svg" /></a>
+    </td>
+  </tr>
+
+  </table>
+
+
+  Libhal Packages
   <table>
   <tr>
     <th>

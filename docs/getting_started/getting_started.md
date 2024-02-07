@@ -8,8 +8,10 @@ Libhal is a software library designed to abstract complexities associated with i
 
 ## <img src="../../assets/libhal.png" style="width: 30px; height: auto;"> Libhal Installation
 
-Please visit the <a href="https://libhal.github.io/2.2/getting_started/" target="_blank">libhal docs</a>
+Please visit the <a href="https://libhal.github.io/2.4/getting_started/" target="_blank">libhal docs</a>
  to learn how to install and configure libhal on your machine. Make sure you go through all of the steps in the docs before continuing. This includes installing and flashing to your Astraeus-I board.
+
+> Check out Libhal's API documentation <a href="https://libhal.github.io/2.4/api/" target="_blank">here!</a>
 
 ## 🧱 Creating Your Own Project
 

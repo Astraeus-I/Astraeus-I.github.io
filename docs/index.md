@@ -18,6 +18,8 @@ Astraeus-I embodies a unique design philosophy centered on the following pillars
 ## The Basics
 Astraeus-I seamlessly integrates interfaces with hardware devices and peripherals through effective use of runtime polymorphism. This technique allows for clear separation between application logic and driver implementation, ensuring smooth operation on platforms with the necessary components, emphasizing its versatility and compatibility.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YyNU-0RBmXE?si=f1vBg76qjrNgK1a1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Support
 For support, please enter our dedicated server and visit our issues page for assistance and prompt resolution to your concerns.
 

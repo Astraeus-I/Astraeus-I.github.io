@@ -20,6 +20,8 @@ The Astraeus-I board is tailored to be housed within a 3D-printed enclosure. The
 
 
 #### Astraeus Ground Case - <a href="../../downloads/AstraeusAeroCase.zip" download>Download ZIP</a>
+Designed by [Alberto Meunier](https://www.linkedin.com/in/alberto-meunier)
+
 This cases are intended to be fabricated using any filament for an FDM printer in a 3D printing process.
 
 <img src="../../assets/AstraeusCase2D.png" alt="2D Design of the Astraeus Aero Case" width=700>
