@@ -15,6 +15,10 @@ To understand the Telemetry Recorder’s features and operation better, visit th
 
 The Astraeus FMU (Flight Management Unit) is a comprehensive software package that provides a wide range of features for controlling and monitoring the Astraeus-I board. This package is designed to facilitate the development of custom applications and to provide a robust foundation for the board's onboard devices. The Astraeus FMU is a versatile tool that can be used for various applications, including drone control, robotics, and environmental monitoring.
 
-### 🔎 Astraeus Filter
+### 🔗 Sensor Fusion
 
-The Astraeus Filter is a software package that provides a set of tools for filtering and processing data from the Astraeus-I board. This package is designed to be used in conjunction with the Telemetry Recorder and other data capture tools to provide a comprehensive solution for data analysis and visualization. The Astraeus Filter is a powerful tool that can be used to process data from a wide range of sensors and devices, making it an essential component for any data analysis workflow.
+The Sensor Fusion package is a software library that provides a set of tools for integrating and processing data from multiple sensors. This package is designed to provide a unified interface for working with different types of sensors, including accelerometers, gyroscopes, magnetometers, and GPS modules. The Sensor Fusion package is an essential tool for developing applications that require precise orientation and position data, such as drone navigation and robotics.
+
+### 🛰️ Navigator
+
+The Astraeus Navigator is a software package that provides a set of tools for precise positioning and automated pathfinding. This package is designed to integrate GPS, GNSS, and other satellite navigation systems to provide real-time location data. The Astraeus Navigator enables users to create and manage waypoints for drones or robotic vehicles, making it an essential tool for any autonomous navigation system.

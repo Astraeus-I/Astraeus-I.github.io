@@ -3,6 +3,14 @@ h1 {
     font-size: 2em;
 }
 
+.package_logo_medium {
+    transform: translateY(10px); /* Adjust the value as needed */
+}
+
+.package_logo_small {
+    transform: translateY(5px); /* Adjust the value as needed */
+}
+
 .md-typeset h2 {
     font-size: 1.5em;
 }
