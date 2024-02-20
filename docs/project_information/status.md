@@ -15,33 +15,18 @@
     </th>
   </tr>
 
-  <!-- <tr>
+  <tr>
     <td>
       <a href="https://github.com/Astraeus-I/telemetry-recorder">Astraeus-I/telemetry-recorder</a>
     </td>
     <td>
-      <a href="https://github.com/Astraeus-I/telemetry-recorder/actions/workflows/ci.yml"><img src="https://github.com/Astraeus-I/telemetry-recorderactions/workflows/ci.yml/badge.svg" /></a>
+      <a href="https://github.com/Astraeus-I/telemetry-recorder/actions/workflows/ci.yml"><img src="https://github.com/Astraeus-I/telemetry-recorder/actions/workflows/ci.yml/badge.svg" /></a>
     </td>
     <td>
       <img src="https://astraeus-i.github.io/telemetry-recorder/coverage/coverage.svg">
     </td>
     <td>
-      <a href="https://github.com/Astraeus-I/telemetry-recorder/blob/main/conanfile.py"><img src="https://github.com/Astraeus-I/telemetry-recorder/latest_version.svg" /></a>
-    </td>
-  </tr> -->
-
-  <tr>
-    <td>
-      <a href="https://github.com/Astraeus-I/telemetry-recorder/" target="_blank">Astraeus-I/telemetry-recorder</a>
-    </td>
-    <td>
-      <a href="https://github.com/libhal/libhal-icm/actions/workflows/ci.yml"><img src="https://github.com/libhal/libhal-icm/actions/workflows/ci.yml/badge.svg" /></a>
-    </td>
-    <td>
-      <img src="https://libhal.github.io/libhal-icm/coverage/coverage.svg">
-    </td>
-    <td>
-      <a href="https://github.com/libhal/libhal-icm/blob/main/conanfile.py"><img src="https://libhal.github.io/libhal-icm/latest_version.svg" /></a>
+      <a href="https://github.com/Astraeus-I/telemetry-recorder/blob/main/conanfile.py"><img src="https://astraeus-i.github.io/telemetry-recorder/latest_version.svg" /></a>
     </td>
   </tr>
 
