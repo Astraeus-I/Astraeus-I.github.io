@@ -15,7 +15,7 @@ Please visit the <a href="https://libhal.github.io/2.4/getting_started/" target=
 
 > Check out Libhal's API documentation <a href="https://libhal.github.io/2.4/api/" target="_blank">here!</a>
 
-## 2: <img class="package_logo_medium" style="height:40px;" src="../../assets/logo.png"> Astraeus Installation
+## 2: <img class="package_logo_medium" style="height:40px;" src="../../assets/logo.png"> Astraeus Library Installation
 
 Add the `astraeus` repository to your system. This repository holds all of the Astraeus packages.
 ```bash

@@ -17,16 +17,16 @@
 
   <tr>
     <td>
-      <a href="https://github.com/Astraeus-I/telemetry-recorder">Astraeus-I/telemetry-recorder</a>
+      <a href="https://github.com/Astraeus-Library/telemetry-recorder">Astraeus-Library/telemetry-recorder</a>
     </td>
     <td>
-      <a href="https://github.com/Astraeus-I/telemetry-recorder/actions/workflows/ci.yml"><img src="https://github.com/Astraeus-I/telemetry-recorder/actions/workflows/ci.yml/badge.svg" /></a>
+      <a href="https://github.com/Astraeus-Library/telemetry-recorder/actions/workflows/ci.yml"><img src="https://github.com/Astraeus-Library/telemetry-recorder/actions/workflows/ci.yml/badge.svg" /></a>
     </td>
     <td>
-      <img src="https://astraeus-i.github.io/telemetry-recorder/coverage/coverage.svg">
+      <img src="https://astraeus-Library.github.io/telemetry-recorder/coverage/coverage.svg">
     </td>
     <td>
-      <a href="https://github.com/Astraeus-I/telemetry-recorder/blob/main/conanfile.py"><img src="https://astraeus-i.github.io/telemetry-recorder/latest_version.svg" /></a>
+      <a href="https://github.com/Astraeus-Library/telemetry-recorder/blob/main/conanfile.py"><img src="https://astraeus-Library.github.io/telemetry-recorder/latest_version.svg" /></a>
     </td>
   </tr>
 

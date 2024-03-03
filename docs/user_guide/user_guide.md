@@ -31,7 +31,7 @@ To connect the Astraeus-I board with other devices, start by referencing the pin
     - Operating current: 200mA
 
 !!! note
-    For detailed information on the Astraeus board's schematic and board layout, refer to the <a href="https://github.com/Astraeus-I/Astraeus-I-Board" target="_blank">Astraeus-I Board repository</a>
+    For detailed information on the Astraeus board's schematic and board layout, refer to the <a href="https://github.com/Astraeus-Library/Astraeus-I-Board" target="_blank">Astraeus-I Board repository</a>
 
 
 ## 💻 Software Details
@@ -85,7 +85,7 @@ def requirements(self):
     self.requires("libhal-util/[^3.0.0]")
 ```
 !!! note 
-    Check out the <a href="https://github.com/Astraeus-I/telemetry-recorder" target="_blank">telemetry recorder</a> tool if you want to record data from the Astraeus-I board.
+    Check out the <a href="https://github.com/Astraeus-Library/telemetry-recorder" target="_blank">telemetry recorder</a> tool if you want to record data from the Astraeus-I board.
 
 
 ## ⌨ Development Tools
@@ -134,7 +134,7 @@ This cases are intended to be fabricated using any filament for an FDM printer i
 
     function getAssetPath(fileName) {
         const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-        return isLocal ? `../../assets/${fileName}` : `https://raw.githubusercontent.com/Astraeus-I/Astraeus-I.github.io/main/docs/assets/${fileName}`;
+        return isLocal ? `../../assets/${fileName}` : `https://raw.githubusercontent.com/Astraeus-Library/Astraeus-Library.github.io/main/docs/assets/${fileName}`;
     }
 
     function setupSTLViewer(containerId, stlFileName) {

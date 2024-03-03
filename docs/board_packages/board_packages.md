@@ -3,11 +3,11 @@ The board packages tools for the Astraeus-I board comprise a suite of software r
 
 Designed with modularity in mind, these tools offer the flexibility to seamlessly integrate user-created applications onto the board. This design approach not only enhances usability but also encourages innovation and personalization. Additionally, the board application tools are crafted for portability, ensuring compatibility across various operating systems such as Linux, Windows, and macOS. This cross-platform functionality ensures that users have the freedom and convenience to develop and deploy their applications in diverse computing environments.
 
-### 📡 [Telemetry Recorder](https://github.com/Astraeus-I/telemetry-recorder)
+### 📡 [Telemetry Recorder](https://github.com/Astraeus-Library/telemetry-recorder)
 
 The Telemetry Recorder is a vital tool for capturing data from devices on the Astraeus-I board. It allows users to either save data directly to an SD card or transmit it through a radio module, provided the board is equipped with one. This dual functionality enables both immediate data transmission for real-time monitoring and secure data storage for later analysis.
 
-To understand the Telemetry Recorder’s features and operation better, visit the project’s <a href="https://github.com/Astraeus-I/telemetry-recorder" target="_blank">GitHub page</a>. The repository also serves as a platform for collaboration, issue reporting, and community engagement to improve and develop the tool further. Whether you're a researcher, technician, or hobbyist, the Telemetry Recorder is a valuable asset for efficient data recording and transmission with the Astraeus-I board.
+To understand the Telemetry Recorder’s features and operation better, visit the project’s <a href="https://github.com/Astraeus-Library/telemetry-recorder" target="_blank">GitHub page</a>. The repository also serves as a platform for collaboration, issue reporting, and community engagement to improve and develop the tool further. Whether you're a researcher, technician, or hobbyist, the Telemetry Recorder is a valuable asset for efficient data recording and transmission with the Astraeus-I board.
 
 ## 🚧 Packages in Development 🚧
 

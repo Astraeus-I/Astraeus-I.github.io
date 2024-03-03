@@ -1,6 +1,6 @@
-site_name: Astraeus-I
-repo_url: https://github.com/Astraeus-I
-repo_name: Astraeus-I
+site_name: Astraeus-Library
+repo_url: https://github.com/Astraeus-Library
+repo_name: Astraeus-Library
 
 theme:
   name: material
@@ -55,7 +55,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/Astraeus-I
+      link: https://github.com/Astraeus-Library
     - icon: fontawesome/brands/discord
       link: https://discord.gg/7H8FzkXEgZ
 
@@ -78,4 +78,4 @@ markdown_extensions:
   - attr_list
 
 copyright: |
-  &copy; 2024 <a href="https://github.com/Astraeus-I"  target="_blank" rel="noopener">Astraeus-I</a>
+  &copy; 2024 <a href="https://github.com/Astraeus-Library"  target="_blank" rel="noopener">Astraeus-Library</a>

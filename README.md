@@ -1,13 +1,13 @@
-# Astraeus-I.github.io
+# Astraeus-Library.github.io
 
 Organization wide repo for docs, assets, and tools any other static information.
 
 ## Updating the docs
 
-Astraeus-I uses [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) to
+Astraeus-Library uses [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) to
 generate our documentation.
 
-If you'd like to contribute to the Astraeus-I website and documentation you can do
+If you'd like to contribute to the Astraeus-Library website and documentation you can do
 so by first installing `mkdocs-material`.
 
 ```bash
