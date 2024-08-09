@@ -1,0 +1,87 @@
+h1 {
+    color: orange;
+    font-size: 2em;
+}
+
+.package_logo_medium {
+    transform: translateY(10px); /* Adjust the value as needed */
+}
+
+.package_logo_small {
+    transform: translateY(5px); /* Adjust the value as needed */
+}
+
+.md-typeset h2 {
+    font-size: 1.5em;
+}
+
+a code {
+    color: #2980B9;
+}
+
+a:hover code {
+    color: #3091d1;
+}
+
+a:visited code {
+    color: #9B59B6;
+}
+
+.md-header__topic {
+    font-size: 1.6em;
+    font-weight: 100 !important;
+}
+
+.md-logo {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.md-logo img {
+    height: 2.7rem !important;
+}
+
+.md-tabs__link {
+    font-size: .8rem !important;
+}
+
+.md-header {
+    background: linear-gradient(to right,  #483D8B, #149fac); /* LightBlue to DarkSlateBlue */
+}
+
+.md-tabs {
+    background: linear-gradient(to right,  #483D8B, #149fac); /* LightBlue to DarkSlateBlue */
+}
+
+.right-align {
+    margin-left:100px !important;
+}
+
+.underline-button {
+    text-decoration: underline; /* Underline text */
+}
+
+<head>
+
+    <style>
+        button {
+            background-color: #f2f2f2; /* Light grey background */
+            border: 1px solid #dcdcdc; /* Grey border */
+            padding: 10px 20px; /* Some padding */
+            cursor: pointer; /* Change mouse cursor on hover */
+            border-radius: 5px; /* Rounded corners */
+            margin: 5px; /* Some margin */
+            transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
+            text-decoration: underline; /* Underline text */
+        }
+
+        button:hover {
+            background-color: #4c0cac; /* Slightly darker grey on hover */
+            border-color: #c1c1c1; /* Darker border on hover */
+        }
+
+        button:active {
+            background-color: #d1d1d1; /* Even darker grey on active/click */
+        }
+    </style>
+</head>
