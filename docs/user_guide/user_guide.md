@@ -14,6 +14,27 @@ In terms of software, the Astraeus-I boasts a comprehensive suite, including spe
 
 To connect the Astraeus-I board with other devices, start by referencing the pinout diagram or the clearly labeled pins on the board itself. This will guide you in identifying the exact pins required for your connection. Once you have this information, match these pins with the corresponding ones on the device you're connecting to, using its pinout diagram as a reference. The Astraeus-I board is equipped with a variety of features including a 9 DOF IMU (ICM-20948), a Barometer (MPL3115A2), GPS (Neo-m9n), an SD Card slot, and it even supports the installation of an xbee radio module. Another key feature of this board is its micromod connector, which allows for easy swapping of the microcontroller, adding a layer of versatility to your projects.
 
+<details>
+  <summary>The Astraeus-I Board design is licensed under the <strong>Creative Commons Attribution 4.0 International (CC BY 4.0)</strong> License.</summary>
+  
+  <div style="margin-left: 20px;">
+    <p>This means you are free to:</p>
+
+    <ul>
+      <li><strong>Share</strong> — copy and redistribute the material in any medium or format</li>
+      <li><strong>Adapt</strong> — remix, transform, and build upon the material for any purpose, even commercially.</li>
+    </ul>
+
+    <p>Under the following terms:</p>
+
+    <ul>
+      <li><strong>Attribution</strong> — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>
+    </ul>
+
+    <p>For more detailed information on this license, please visit <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+  </div>
+</details>
+
 ### 📌 Pinout Diagram
 
 <img src="../../assets/Astraeus_Pinout.svg" style="height: 1200px;  margin-bottom: -70px;">
@@ -30,9 +51,9 @@ To connect the Astraeus-I board with other devices, start by referencing the pin
     - Supply voltage:  5V
     - Operating current: 200mA
 
+
 !!! note
     For detailed information on the Astraeus board's schematic and board layout, refer to the <a href="https://github.com/Astraeus-Library/Astraeus-I-Board" target="_blank">Astraeus-I Board repository</a>
-
 
 ## 💻 Software Details
 
